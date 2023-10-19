@@ -10,15 +10,15 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: Welcome to webMUSHRA!       
+      content: Thank you for participating in this listening test. <br/> This test includes 10 sessions, and will take about 10 minutes. <br/> Each session give you an empty reference and 4 samples to compare. <br/> Pick out the empty reference and give it 0 points. <br/> At the end of the test, please <b> leave your name (or alias) and click the [Submit Results] button to get your results. Then copy and paste the results to a file, and submit it back to us.</b> 
     - type: mushra
       id: 0
       name: MUSHRA
-      content: Thank you for participating in this listening test. <br/> This test includes 10 sessions, and will take about 10 minutes. <br/> Each session give you an empty reference and 5 samples to compare, including a hidden reference and a 3.5kHz low-filter anchor (muffle sounding). <br/> Pick out the empty reference and give it 0 points. Then rate the rest of the others based on their comparison to other samples. <br/> To regularize, I suggest rating the muffle sounding anchor to a score around 10-30. <br/> At the end of the test, please <b> leave your name (or alias) and click the [Submit Results] button </b> to get your results. Then copy and paste the results to a file, and submit it back to us. 
+      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. Set the empty wavefile to value 0.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/post_kd_outputs/home3_room2_arrayGeo1_arrayPos1_speakerM6_speakerPos3_noiseCond24_/empty.wav 
-      createAnchor35: true
+      createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/post_kd_outputs/home3_room2_arrayGeo1_arrayPos1_speakerM6_speakerPos3_noiseCond24_/mix.wav 
@@ -32,7 +32,7 @@ pages:
       enableLooping: true
       reference: configs/resources/post_kd_outputs/home3_room3_arrayGeo1_arrayPos1_speakerF3_speakerPos4_noiseCond28_/empty.wav 
       showWaveform: false
-      createAnchor35: true
+      createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/post_kd_outputs/home3_room3_arrayGeo1_arrayPos1_speakerF3_speakerPos4_noiseCond28_/mix.wav 
@@ -46,7 +46,7 @@ pages:
       enableLooping: true
       reference: configs/resources/post_kd_outputs/home3_room1_arrayGeo1_arrayPos1_speakerM6_speakerPos3_noiseCond21_/empty.wav 
       showWaveform: false
-      createAnchor35: true
+      createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/post_kd_outputs/home3_room1_arrayGeo1_arrayPos1_speakerM6_speakerPos3_noiseCond21_/mix.wav 
@@ -60,7 +60,7 @@ pages:
       enableLooping: true
       reference: configs/resources/post_kd_outputs/home3_room1_arrayGeo1_arrayPos1_speakerF3_speakerPos4_noiseCond22_/empty.wav 
       showWaveform: false
-      createAnchor35: true
+      createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/post_kd_outputs/home3_room1_arrayGeo1_arrayPos1_speakerF3_speakerPos4_noiseCond22_/mix.wav 
@@ -74,7 +74,7 @@ pages:
       enableLooping: true
       reference: configs/resources/post_kd_outputs/home2_room1_arrayGeo1_arrayPos1_speakerM3_speakerPos2_noiseCond11_/empty.wav 
       showWaveform: false
-      createAnchor35: true
+      createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/post_kd_outputs/home2_room1_arrayGeo1_arrayPos1_speakerM3_speakerPos2_noiseCond11_/mix.wav 
@@ -88,7 +88,7 @@ pages:
       enableLooping: true
       reference: configs/resources/post_kd_outputs/home2_room2_arrayGeo1_arrayPos1_speakerF2_speakerPos4_noiseCond16_/empty.wav 
       showWaveform: false
-      createAnchor35: true
+      createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/post_kd_outputs/home2_room2_arrayGeo1_arrayPos1_speakerF2_speakerPos4_noiseCond16_/mix.wav 
@@ -102,7 +102,7 @@ pages:
       enableLooping: true
       reference: configs/resources/post_kd_outputs/home4_room2_arrayGeo1_arrayPos1_speakerF4_speakerPos3_noiseCond33_/empty.wav 
       showWaveform: false
-      createAnchor35: true
+      createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/post_kd_outputs/home4_room2_arrayGeo1_arrayPos1_speakerF4_speakerPos3_noiseCond33_/mix.wav 
@@ -116,7 +116,7 @@ pages:
       enableLooping: true
       reference: configs/resources/post_kd_outputs/home1_room3_arrayGeo1_arrayPos1_speakerM2_speakerPos4_noiseCond10_/empty.wav 
       showWaveform: false
-      createAnchor35: true
+      createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/post_kd_outputs/home1_room3_arrayGeo1_arrayPos1_speakerM2_speakerPos4_noiseCond10_/mix.wav 
@@ -130,7 +130,7 @@ pages:
       enableLooping: true
       reference: configs/resources/post_kd_outputs/home1_room3_arrayGeo1_arrayPos1_speakerM1_speakerPos3_noiseCond9_/empty.wav 
       showWaveform: false
-      createAnchor35: true
+      createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/post_kd_outputs/home1_room3_arrayGeo1_arrayPos1_speakerM1_speakerPos3_noiseCond9_/mix.wav 
@@ -144,7 +144,7 @@ pages:
       enableLooping: true
       reference: configs/resources/post_kd_outputs/home1_room1_arrayGeo1_arrayPos1_speakerF1_speakerPos2_noiseCond2_/empty.wav 
       showWaveform: false
-      createAnchor35: true
+      createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/post_kd_outputs/home1_room1_arrayGeo1_arrayPos1_speakerF1_speakerPos2_noiseCond2_/mix.wav 
