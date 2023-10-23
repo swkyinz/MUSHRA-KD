@@ -10,25 +10,25 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: Thank you for participating in this listening test. <br/> This test includes 10 sessions, and will take about 10 minutes. <br/> Each session give you an empty reference and 4 samples to compare. <br/> Pick out the empty reference and give it 0 points. <br/> At the end of the test, please <b> leave your name (or alias) and click the [Submit Results] button to get your results. </b> You may close your window, the results are saved automatically. 
+      content: Thank you for participating in this listening test. <br/> This test includes 10 sessions, and will take about 10 minutes. <br/> Each session give you an empty reference and 4 samples to compare. <br/> <b> Pick out the empty reference and give it 0 points, and give the best sample 100.</b> </b> <br/> At the end of the test, please <b> leave your name (or alias) and click the [Submit Results] button to get your results. </b> <br/> You may close your window, the results are saved automatically. 
     - type: mushra
       id: 0
       name: MUSHRA
-      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. Set the empty wavefile to value 0.
-      showWaveform: true
+      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. <br/><b> Set the empty wavefile to value 0, and best sample to 100.</b> 
+      showWaveform: false
       enableLooping: true 
-      reference: configs/resources/kd_samples/home2_room2_arrayGeo1_arrayPos1_speakerM3_speakerPos2_noiseCond14_/empty.wav 
+      reference: configs/resources/kd_samples/home1_room2_arrayGeo1_arrayPos1_speakerM2_speakerPos4_noiseCond7_/empty.wav 
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/kd_samples/home2_room2_arrayGeo1_arrayPos1_speakerM3_speakerPos2_noiseCond14_/mix.wav 
-          C2: configs/resources/kd_samples/home2_room2_arrayGeo1_arrayPos1_speakerM3_speakerPos2_noiseCond14_/stu64_before.wav 
-          C3: configs/resources/kd_samples/home2_room2_arrayGeo1_arrayPos1_speakerM3_speakerPos2_noiseCond14_/stu64_after.wav 
-          C4: configs/resources/kd_samples/home2_room2_arrayGeo1_arrayPos1_speakerM3_speakerPos2_noiseCond14_/dprnn.wav 
+          C1: configs/resources/kd_samples/home1_room2_arrayGeo1_arrayPos1_speakerM2_speakerPos4_noiseCond7_/mix.wav 
+          C2: configs/resources/kd_samples/home1_room2_arrayGeo1_arrayPos1_speakerM2_speakerPos4_noiseCond7_/stu64_before.wav 
+          C3: configs/resources/kd_samples/home1_room2_arrayGeo1_arrayPos1_speakerM2_speakerPos4_noiseCond7_/stu64_after.wav 
+          C4: configs/resources/kd_samples/home1_room2_arrayGeo1_arrayPos1_speakerM2_speakerPos4_noiseCond7_/dprnn.wav 
     - type: mushra
       id: 1
       name: MUSHRA
-      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. Set the empty wavefile to value 0.
+      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. <br/><b> Set the empty wavefile to value 0, and best sample to 100.</b>
       enableLooping: true
       reference: configs/resources/kd_samples/home3_room3_arrayGeo1_arrayPos1_speakerF3_speakerPos4_noiseCond28_/empty.wav 
       showWaveform: false
@@ -42,7 +42,7 @@ pages:
     - type: mushra
       id: 2
       name: MUSHRA
-      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. Set the empty wavefile to value 0.
+      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. <br/><b> Set the empty wavefile to value 0, and best sample to 100.</b>
       enableLooping: true
       reference: configs/resources/kd_samples/home3_room1_arrayGeo1_arrayPos1_speakerM6_speakerPos3_noiseCond21_/empty.wav 
       showWaveform: false
@@ -56,7 +56,7 @@ pages:
     - type: mushra
       id: 3
       name: MUSHRA
-      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. Set the empty wavefile to value 0.
+      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. <br/><b> Set the empty wavefile to value 0, and best sample to 100.</b>
       enableLooping: true
       reference: configs/resources/kd_samples/home3_room1_arrayGeo1_arrayPos1_speakerF3_speakerPos4_noiseCond22_/empty.wav 
       showWaveform: false
@@ -70,7 +70,7 @@ pages:
     - type: mushra
       id: 4
       name: MUSHRA
-      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. Set the empty wavefile to value 0.
+      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. <br/><b> Set the empty wavefile to value 0, and best sample to 100.</b>
       enableLooping: true
       reference: configs/resources/kd_samples/home4_room2_arrayGeo1_arrayPos1_speakerM7_speakerPos2_noiseCond32_/empty.wav 
       showWaveform: false
@@ -84,7 +84,7 @@ pages:
     - type: mushra
       id: 5
       name: MUSHRA
-      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. Set the empty wavefile to value 0.
+      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. <br/><b> Set the empty wavefile to value 0, and best sample to 100.</b>
       enableLooping: true
       reference: configs/resources/kd_samples/home2_room2_arrayGeo1_arrayPos1_speakerM4_speakerPos3_noiseCond15_/empty.wav 
       showWaveform: false
@@ -98,7 +98,7 @@ pages:
     - type: mushra
       id: 6
       name: MUSHRA
-      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. Set the empty wavefile to value 0.
+      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. <br/><b> Set the empty wavefile to value 0, and best sample to 100.</b>
       enableLooping: true
       reference: configs/resources/kd_samples/home4_room3_arrayGeo1_arrayPos1_speakerF4_speakerPos3_noiseCond36_/empty.wav 
       showWaveform: false
@@ -112,7 +112,7 @@ pages:
     - type: mushra
       id: 7
       name: MUSHRA
-      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. Set the empty wavefile to value 0. 
+      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. <br/><b> Set the empty wavefile to value 0, and best sample to 100.</b> 
       enableLooping: true
       reference: configs/resources/kd_samples/home4_room2_arrayGeo1_arrayPos1_speakerM8_speakerPos4_noiseCond34_/empty.wav 
       showWaveform: false
@@ -126,7 +126,7 @@ pages:
     - type: mushra
       id: 8
       name: MUSHRA
-      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. Set the empty wavefile to value 0. 
+      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. <br/><b> Set the empty wavefile to value 0, and best sample to 100.</b> 
       enableLooping: true
       reference: configs/resources/kd_samples/home1_room2_arrayGeo1_arrayPos1_speakerM1_speakerPos3_noiseCond6_/empty.wav 
       showWaveform: false
@@ -140,7 +140,7 @@ pages:
     - type: mushra
       id: 9
       name: MUSHRA
-      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. Set the empty wavefile to value 0. 
+      content: Please rate the samples with respect to other samples. Reference is not provided and an empty waveform is set as the reference. <br/><b> Set the empty wavefile to value 0, and best sample to 100.</b> 
       enableLooping: true
       reference: configs/resources/kd_samples/home1_room3_arrayGeo1_arrayPos1_speakerM2_speakerPos4_noiseCond10_/empty.wav 
       showWaveform: false
